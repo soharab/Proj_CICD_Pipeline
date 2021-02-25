@@ -1,5 +1,5 @@
 setup:
-	python3 -m venv ~/.myrepo
+	python3 -m venv ~/.udacity-devops
 
 install:
 	pip install --upgrade pip &&\
@@ -11,7 +11,8 @@ test:
 
 
 lint:
-#hadolint Dockerfile #uncomment to explore linting Dockerfiles
-	pylint --disable=R,C,W1203 app.py
+	#hadolint Dockerfile #uncomment to explore linting Dockerfiles
+	pylint --disable=R,C,W0702 app.py
 	
+
 all: install lint test
