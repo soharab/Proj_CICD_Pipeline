@@ -30,15 +30,23 @@ s
 Instructions
 
 -clone the github repository into your local Azure Cloud shell.
+
 -Create a new python virtual environment and enter in to the virtual environment.
+
 -Create a Makefile with the make Instructions for Install ,lint ,Test targets.
+
 - Build the Project locally,using the make all command
+-
 -Once the Build is successful,we should deploy the application using The Azure App service using the command
 az webapp up -n <name of the application>.
+ 
 -Once the deployment is succesful,The website can be accessed ,in the Browser using the URL
  http://<name of the application>.azurewebsites.net
+ 
  -Once the Build is Successfully deployed using Azure App service,we can go ahead and configure it for automatic build and deployment using Azure Pipelines.
+ 
  -Login to Azure Devops and Create a new project for this purpose and Go to project settings and Create a new pipelines.
+ 
  -Connect this pipelines to utizile the GitHub repository and Then Connect to the Deployment Azure App service.
 
 
@@ -72,9 +80,9 @@ az webapp up -n <name of the application>.
 
 
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
+* Passing tests that are displayed after running the `make all` command from the `Makefile
 
-
+https://pasteboard.co/JQaByF8.png
 
 
 
