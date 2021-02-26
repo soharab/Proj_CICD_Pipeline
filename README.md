@@ -14,18 +14,14 @@ https://trello.com/b/KWR72xOW/cicd-project-demo
 * A link to a spreadsheet that includes the original and final project plan
 
 https://docs.google.com/spreadsheets/d/10qPdEpRtAW_9_iTs7RSINJ0xq5AABR5MvB9fwSQ8cLo/edit?usp=sharing
-s
+
 
 ## Instructions
 
 
 * Architectural Diagram (Shows how key parts of the system work)
 
-
-
-
-
-
+https://pasteboard.co/JQaH2mg.png
 
 Instructions
 
@@ -36,7 +32,7 @@ Instructions
 -Create a Makefile with the make Instructions for Install ,lint ,Test targets.
 
 - Build the Project locally,using the make all command
--
+- 
 -Once the Build is successful,we should deploy the application using The Azure App service using the command
 az webapp up -n <name of the application>.
  
@@ -52,54 +48,24 @@ az webapp up -n <name of the application>.
 
 
 * Project running on Azure App Service
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+https://cicdprojectdemo.azurewebsites.net/
 
 * Project cloned into Azure Cloud Shell
 
-
-
-
+https://pasteboard.co/JQaD3lo.png
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile
+* Output of a test run
 
 https://pasteboard.co/JQaByF8.png
 
-
-
-
-* Output of a test run
-
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
-
-
-
-
+https://pasteboard.co/JQaEkio.png
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
-
-
+https://pasteboard.co/JQaF4bz.png
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
@@ -112,10 +78,7 @@ Port: 443
 
 * Output of streamed log files from deployed application
 
-
-
-
-
+https://pasteboard.co/JQaF4bz.png
 
 ## Enhancements
 
@@ -125,7 +88,7 @@ Port: 443
 
 Demo video is available at the link
 
-(165) CICD Project Demo-Udacity - YouTube 
+https://www.youtube.com/watch?v=pmBYlalSTs0
 
 
 
