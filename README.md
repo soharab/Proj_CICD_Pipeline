@@ -62,9 +62,15 @@ https://pasteboard.co/JQaByF8.png
  
 https://pasteboard.co/JQv2j8l.png
 
+*GitHub actions Badge
+
+[![Python application test with Github Actions](https://github.com/soharab/Proj_CICD_Pipeline/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/soharab/Proj_CICD_Pipeline/actions/workflows/pythonapp.yml)
+
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 https://pasteboard.co/JQaEkio.png
+
+https://pasteboard.co/JQv6FBv.png
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
@@ -73,15 +79,14 @@ https://pasteboard.co/JQaF4bz.png
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
 
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
 
 * Output of streamed log files from deployed application
 
 https://pasteboard.co/JQaF4bz.png
+
+* Locust Load Testing Screenshot
+
+https://pasteboard.co/JQv7M0T.png
 
 ## Enhancements
 
